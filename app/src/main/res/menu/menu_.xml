@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menurefresh"
+
+            android:title="Refresh" />
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Profile">
+            <menu>
+                <item
+                    android:id="@+id/menu_update_profile"
+
+                    android:title="Update Profile" />
+                <item
+                    android:id="@+id/menu_update_email"
+
+                    android:title="Update Email" />
+                <item
+                    android:id="@+id/menu_settings"
+
+                    android:title="Settings" />
+                <item
+                    android:id="@+id/menu_change_password"
+
+                    android:title="Change Password" />
+                <item
+                    android:id="@+id/menu_delete_profile"
+
+                    android:title="Delete Profile" />
+                <item
+                    android:id="@+id/menu_logout"
+
+                    android:title="Logout" />
+            </menu>
+        </item>
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/menuShare"
+
+                android:title="Refresh" />
+            <item
+                android:id="@+id/menuhelp"
+
+                android:title="Refresh" />
+
+
+        </menu>
+    </item>
+
+</menu>

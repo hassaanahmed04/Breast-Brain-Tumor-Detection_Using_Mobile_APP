@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TumorCheck"
+        tools:targetApi="31">
+        <activity
+            android:name=".saqlain"
+            android:exported="false" />
+        <activity
+            android:name=".settings"
+            android:exported="false" />
+        <activity
+            android:name=".deleteProfile"
+            android:exported="false" />
+        <activity
+            android:name=".main_page"
+            android:exported="false" />
+        <activity
+            android:name=".uploadProfile"
+            android:exported="false" />
+        <activity
+            android:name=".BreastMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".manageReports"
+            android:exported="false" />
+        <activity
+            android:name=".getAmount"
+            android:exported="false" />
+        <activity
+            android:name=".Donation"
+            android:exported="false" />
+        <activity
+            android:name=".invoice"
+            android:exported="false" />
+        <activity
+            android:name=".main_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".updateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPwd"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".Report_generation"
+            android:exported="false" />
+        <activity
+            android:name=".splashScreen"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.TumorCheck">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.tumorcheck.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

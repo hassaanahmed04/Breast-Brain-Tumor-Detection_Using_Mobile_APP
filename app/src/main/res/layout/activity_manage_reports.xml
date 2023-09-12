@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parentlayout"
+    tools:context=".manageReports">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-10dp"
+        android:background="@drawable/bordor"
+        android:padding="15dp">
+
+        <RelativeLayout
+            android:id="@+id/RL_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bordor">
+
+            <ImageView
+                android:id="@+id/imageViewPwd"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/baseline_document_scanner_24" />
+
+
+
+
+            <EditText
+                android:id="@+id/enterReportId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@id/imageViewPwd"
+                android:background="@android:color/transparent"
+                android:hint="Enter id to generate pdf"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:padding="6dp"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/previousReportButton"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/RL_pwd"
+            android:layout_centerHorizontal="true"
+android:textColor="@color/white"
+            android:backgroundTint="@color/purple_700"
+            android:text="Generate pdf" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:elevation="10dp"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+    <ir.androidexception.datatable.DataTable
+        android:id="@+id/data_table"
+        android:layout_width="403dp"
+        android:layout_height="630dp"
+        android:layout_marginTop="150dp"
+        app:corner_radius="8dp"
+        app:direction="ltr"
+        app:header_background_color="#fff"
+        app:header_gravity="center"
+        app:header_horizontal_padding="0dp"
+        app:header_text_color="#000"
+        app:header_text_size="4sp"
+        app:header_vertical_padding="16dp"
+        app:persian_number="false"
+        app:row_background_color="#fff"
+        app:row_gravity="center"
+        app:row_text_color="#000"
+        app:row_text_size="4sp"
+        app:row_vertical_padding="16dp"
+        app:shadow="8dp" />
+
+
+</RelativeLayout>

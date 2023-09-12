@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Tumor Check</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="register">Register Now!</string>
+    <string name="loading">Loading</string>
+    <string name="reset">Click here to reset!</string>
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="hostpitals">
+        <item>PIMS</item>
+        <item>SHIFA</item>
+        <item>Capital Hospital</item>
+        <item>National Institute of Health</item>
+        <item>Nuclear Oncology and Radiotherapy Institute (NORI)</item>
+        <item>Federal Government Services Hospital</item>
+        <item>Medicsi</item>
+        <item>Islamabad International Hospital and Research Center</item>
+        <item>Family Health Hospital</item>
+        <item>PAEC general hospital</item>
+        <item>PAF hospital</item>
+
+    </string-array>
+    <array name="models">
+        <item>Default</item>
+
+        <item>Simple Sequential</item>
+        <item>Functional Model</item>
+        <item>Xception Model</item>
+        <item>Transfer leaning VGG16</item>
+    </array>
+
+    <string-array name="hospital_type">
+        <item>Government</item>
+        <item>Semi-Government</item>
+        <item>Private</item>
+    </string-array>
+
+
+</resources>

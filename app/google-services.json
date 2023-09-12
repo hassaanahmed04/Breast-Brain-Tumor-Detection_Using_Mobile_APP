@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "441440763514",
+    "firebase_url": "https://tumor-check-default-rtdb.firebaseio.com",
+    "project_id": "tumor-check",
+    "storage_bucket": "tumor-check.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441440763514:android:02dae578cac9facb5345c3",
+        "android_client_info": {
+          "package_name": "com.example.tumorcheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441440763514-fok6ph8rfg4qs7ki7q6lrjbu623vieft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOghAmsowidGhbz73PhYCyKOIf2wyZwoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441440763514-fok6ph8rfg4qs7ki7q6lrjbu623vieft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
